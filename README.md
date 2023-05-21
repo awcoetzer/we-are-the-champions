@@ -83,31 +83,34 @@ We were given a figma <a href="https://www.figma.com/file/SgWlM7qkqTQa7fiGEcLKew
   - ```html
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Josefin+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
     ```
 
   - ```css
-      --typeface-sans: 'Inter', sans-serif;
+      --typeface-inter: 'Inter', sans-serif;
+      --typeface-josefin: 'Josefin Sans', sans-serif;
     ```
 
 - Color palette used within project
   - ```css
       /* color palettes */
-      /* main colors */
-      --clr-dt-main-shade: ;
-      --clr-dt-main: ;
-      --clr-dt-main-tint: ;
-      /* text colors */
-      --clr-dt-grey: ;
-      /* accent colors */
-      --clr-dt-accent-shade: ;
-      --clr-dt-accent: ;
-      --clr-dt-accent-tint: ;
+      --clr-main-shade: ;
+      --clr-main: hsl(251, 18%, 12%);
+      --clr-main-tint: hsl(250, 16%, 30%);
+      --clr-grey-btn: hsl(203, 75%, 6%);
+      --clr-grey-endorsement: hsl(251, 18%, 12%);
+      --clr-grey-offset: hsl(0, 0%, 56%);
+      --clr-grey: hsl(0, 0%, 100%);
+      --clr-accent-shade: ;
+      --clr-accent: hsl(201, 88%, 55%);
+      --clr-accent-tint: ;
 
       /* 3d button */
-      --clr-dt-btn-3d-white: linear-gradient(140deg, hsl(0, 0%, 100%), hsl(0, 0%, 70%));
-      --clr-dt-btn-3d-yellow: linear-gradient(140deg, hsl(50, 100%, 58%), hsl(50, 100%, 38%));
-      --clr-dt-btn-shadow: hsl(215, 30%, 22%);
+      --clr-btn-3d-white: linear-gradient(140deg, hsl(0, 0%, 100%), hsl(0, 0%, 70%));
+      --clr-btn-3d-blue: linear-gradient(140deg, hsl(201, 88%, 65%), hsl(201, 88%, 35%));
+      --clr-btn-shadow: hsl(250, 16%, 30%);
     ```
 - General project variables layout
   - ```css
@@ -181,24 +184,7 @@ We were given a figma <a href="https://www.figma.com/file/SgWlM7qkqTQa7fiGEcLKew
       --clr-main-shade: ;
       --clr-main: ;
       --clr-main-tint: ;
-
       --clr-grey: ;
-
-      --clr-accent-shade: ;
-      --clr-accent: ;
-      --clr-accent-tint: ;
-
-      /* project document setup */
-      /* project typeface */
-      --project-typeface-:;
-
-      /* color palettes */
-      --clr-main-shade: ;
-      --clr-main: ;
-      --clr-main-tint: ;
-
-      --clr-grey: ;
-
       --clr-accent-shade: ;
       --clr-accent: ;
       --clr-accent-tint: ;
@@ -279,8 +265,7 @@ We were given a figma <a href="https://www.figma.com/file/SgWlM7qkqTQa7fiGEcLKew
 
 - Scrimba Bootcamp
   - <a href="https://scrimba.com/bootcamp " target="_blank" alt="link to scrimba bootcamp">scrimba.com/bootcamp</a>
-- Images used within the project, credit goes to catalyststuff
-  - <a href="https://www.freepik.com/free-vector/boy-playing-basketball-cartoon-people-sport-icon-concept-isolated-flat-cartoon-style_10920751.htm#query=basketball&position=0&from_view=author" target="_blank" alt="Link to catalyststuff profile on Freepik">Images by catalyststuff on Freepik</a>
+- Images used within come from the course project.
 - Removing image background
   - <a href="https://removal.ai/upload/" target="_blank" alt="A link to a site named removal.ai, which helps to remove image backgrounds, great for small projects like this">removal.ai</a>
 - Image resizing for better optimization
