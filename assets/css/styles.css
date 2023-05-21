@@ -68,22 +68,20 @@
 
   /* color palettes */
   --clr-main-shade: ;
-  --clr-main: #1B1924;
-  --clr-main-tint: #444059;
-
-  --clr-grey-btn: #04131C;
-  --clr-grey-endorsement: #1B1924;
-  --clr-grey-offset: #8F8F8F;
-  --clr-grey: #fff;
-
+  --clr-main: hsl(251, 18%, 12%);
+  --clr-main-tint: hsl(250, 16%, 30%);
+  --clr-grey-btn: hsl(203, 75%, 6%);
+  --clr-grey-endorsement: hsl(251, 18%, 12%);
+  --clr-grey-offset: hsl(0, 0%, 56%);
+  --clr-grey: hsl(0, 0%, 100%);
   --clr-accent-shade: ;
-  --clr-accent: #28A9F1;
+  --clr-accent: hsl(201, 88%, 55%);
   --clr-accent-tint: ;
 
   /* 3d button */
   --clr-btn-3d-white: linear-gradient(140deg, hsl(0, 0%, 100%), hsl(0, 0%, 70%));
   --clr-btn-3d-blue: linear-gradient(140deg, hsl(201, 88%, 65%), hsl(201, 88%, 35%));
-  --clr-dt-btn-shadow: hsl(215, 30%, 22%);
+  --clr-btn-shadow: hsl(250, 16%, 30%);
 }
 
 * {
@@ -240,17 +238,17 @@ body {
   transform: translate3d(0, 1.2rem, -1rem);
   background-image: var(--clr-btn-3d-white);
   transition: transform 0.15s cubic-bezier(0, 0, 0.6, 1), box-shadow 0.15s cubic-bezier(0, 0, 0.6, 1);
-  box-shadow: 0 0 0 2px var(--clr-main), 0 0.7rem 0 0 var(--clr-main-tint);
+  box-shadow: 0 0 0 2px var(--clr-main), 0 0.7rem 0 0 var(--clr-btn-shadow);
 }
 
 .link--hero:hover::before {
   transform: translate3d(0, 0.7rem, -1rem);
-  box-shadow: 0 0 0 2px var(--clr-main), 0 0.5rem 0 0 var(--clr-main-tint)
+  box-shadow: 0 0 0 2px var(--clr-main), 0 0.5rem 0 0 var(--clr-btn-shadow)
 }
 
 .link--hero:active::before {
   transform: translate3d(0, 0, -1rem);
-  box-shadow: 0 0 0 2px var(--clr-main), 0 0 0 0 var(--clr-main-tint)
+  box-shadow: 0 0 0 2px var(--clr-main), 0 0 0 0 var(--clr-btn-shadow)
 }
 
 .scrimba {
