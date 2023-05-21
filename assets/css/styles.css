@@ -274,6 +274,7 @@ body {
 }
 
 /* required project */
+
 .project-container {
   margin: 0 auto;
   padding: 5rem 3.6rem;
@@ -342,10 +343,12 @@ body {
 }
 
 .endorsement-container {
+  text-align: center;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 1.3rem;
-  color: var(--clr-grey-endorsement);
+  color: var(--clr-grey-offset);
 }
 
 .endorsement-container ::selection {
@@ -355,12 +358,16 @@ body {
 
 .endorsement-text-box {
   padding: 1.5rem 1.3rem;
+  width: 100%;
   background-color: var(--clr-grey);
 }
 
 .endorsement-text {
+  text-align: left;
+  width: 100%;
   font-size: var(--font-14);
   line-height: 1.45rem;
+  color: var(--clr-grey-endorsement);
 }
 
 /* stretch goal project */
@@ -392,6 +399,8 @@ body {
 .input-to {}
 
 .endorsement-header {
+  text-align: left;
+  color: var(--clr-grey-endorsement);
   margin-bottom: var(--spacing-12);
 }
 
@@ -408,7 +417,10 @@ body {
 }
 
 .endorsement-footer {
+  margin-top: var(--spacing-12);
   display: flex;
+  align-items: center;
+  color: var(--clr-grey-endorsement)
 }
 
 .reciever {}
@@ -436,7 +448,7 @@ body {
   display: none;
 }
 
-.linke-number {}
+.likes-number {}
 
 /* section footer */
 .done-by {
