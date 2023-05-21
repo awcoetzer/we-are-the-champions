@@ -44,11 +44,9 @@ We were given a figma <a href="https://www.figma.com/file/SgWlM7qkqTQa7fiGEcLKew
     - [images/](./assets/images/)
       - [favicon/](./assets/images/favicon/)
       - [hero/](./assets/images/hero/)
-      - [project-img/](./assets/images/project/)
       - [readme/](./assets/images/readme/)
     - [javascript/](./assets/javascript/)
         - [app.js](./assets/javascript/app.js)
-    - [sounds](./assets/sounds/)
 - [index.html](./index.html)
 - [README.md](./README.md)
 
